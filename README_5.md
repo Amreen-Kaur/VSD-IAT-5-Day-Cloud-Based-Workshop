@@ -7,7 +7,7 @@ This repository contains all the information needed to build and run openLANE fl
 
 **DAY-1**
   * [**SoC design and OpenLANE**](#--soc-design-and-openlane--)
-  * [**Get familiar to open-source EDA tools**](#--get-familiar-to-open-source-eda-tools--)
+  * [**Get familiar to open-source EDA tools-Synthesis**](#--get-familiar-to-open-source-eda-tools--)
 
   **DAY-2**
 
@@ -53,7 +53,7 @@ An Open Source Digital ASIC Design require three components-
 ![OpenLANE Design Flow](https://github.com/Amreen-Kaur/VSD-IAT-5-Day-Cloud-Based-Workshop/blob/main/DAY-1/openlane.png)
 
 ---
-## **Get familiar to open-source EDA tools**
+## **Get familiar to open-source EDA tools-Synthesis**
 
 In order to begin the Openlane flow the following commands are entered one after the other in the terminal window-
 
