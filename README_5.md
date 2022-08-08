@@ -83,7 +83,7 @@ In order to calculate the **flop ratio** of the design which is- **(the no. of d
 
 ![d1_3](https://github.com/Amreen-Kaur/VSD-IAT-5-Day-Cloud-Based-Workshop/blob/main/DAY-1/d1_3.png)
 
-The flop ratio comes out to be 0.108.
+The flop ratio comes out to be **0.108**.
 
 The synthesized netlist(.v) is visible in the synthesis folder in the results directory now as shown below.
 
@@ -184,7 +184,7 @@ If me make changes in the floorplan using the below commands to the variable-**F
 ```
 set $::env(FP_IO_MODE) 2
 ```
-we see that the pins are no more equidistant but are stacked one on top of the other.
+We see that the pins are no more equidistant but are stacked one on top of the other.
 
 ![d3_3](https://github.com/Amreen-Kaur/VSD-IAT-5-Day-Cloud-Based-Workshop/blob/main/DAY-3/d3_3.png)
 
@@ -273,7 +273,7 @@ Jitters can be seen in the waveform which can be removed as follows-
 
 ![d3_20](https://github.com/Amreen-Kaur/VSD-IAT-5-Day-Cloud-Based-Workshop/blob/main/DAY-3/d3_20.png)
 
-Now , on observing the waveform and plotting some points we can analyse the delays of the cell as follows-
+Now, on observing the waveform and plotting some points we can analyse the delays of the cell as follows-
 
 ![d3_21](https://github.com/Amreen-Kaur/VSD-IAT-5-Day-Cloud-Based-Workshop/blob/main/DAY-3/d3_21.png)
 
@@ -429,7 +429,7 @@ Openlane using **TritonCTS** EDA is used to create CTS with one corner only.
 ---
 ## **Timings with OpenSTA**
 
-The first step is to initiate OpenroadWwhich has OpenSTA integrated in it).
+The first step is to initiate Openroad which has OpenSTA integrated in it.
 
 ![d4_27](https://github.com/Amreen-Kaur/VSD-IAT-5-Day-Cloud-Based-Workshop/blob/main/DAY-4/d4_27.png)
 
@@ -507,11 +507,11 @@ To perform routing we give the command-
 ```
 run_routing
 ```
-The README file in configurations directory gives the information of all the parameters(variables) that are to be set for the particular step in the function. Reading it gives a lot of insight into the entire flow. The README.md file is shown in this repository and can be accessed as follows-
+The **README file** in configurations directory gives the information of all the parameters(variables) that are to be set for the particular step in the function. Reading it gives a lot of insight into the entire flow. The README.md file is shown in this repository and can be accessed as follows-
 
 ![d5_2](https://github.com/Amreen-Kaur/VSD-IAT-5-Day-Cloud-Based-Workshop/blob/main/DAY-5/d5_2.png)
 
-The detailed routing done in Openlane is using Triton Route and the global route is done by FastRoute. Different Triton strategies are used which cater to different runs such as fast run with low detailing and vice-versa.
+The detailed routing done in Openlane is using **Triton Route** and the global route is done by **FastRoute**. Different Triton strategies are used which cater to different runs such as fast run with low detailing and vice-versa.
 
 The routing files give the details of the entire process. The list is as shown below.
 
