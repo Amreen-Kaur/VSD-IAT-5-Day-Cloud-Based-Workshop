@@ -1,4 +1,4 @@
-# **ADVANCED PHYSICAL DESIGN USING OPENLANE/PDK130**
+# **ADVANCED PHYSICAL DESIGN USING OPENLANE/SKY130 PDK**
 This repository contains all the information needed to build and run openLANE flow, which has the capability to perform full **ASIC** implementation steps from **RTL** to **GDSII**.
 
 ---
